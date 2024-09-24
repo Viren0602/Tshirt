@@ -1,0 +1,86 @@
+/* General page styles */
+body {
+  background-color: cadetblue;
+  font-family: Arial, sans-serif;
+}
+
+/* Gradient background for the header */
+header {
+  background: linear-gradient(to right, lightblue, purple);
+  color: white;
+  font-size: 30px;
+  font-family: cursive;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Center the navbar links */
+.info {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.info a {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: cursive;
+  margin: 0 20px; /* Space between links */
+}
+
+.info a:hover {
+  color: lightgray;
+}
+
+/* Form styling */
+strong {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+select, input[type="text"], input[type="email"] {
+  margin: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#button {
+  font-family: monospace;
+  width: 120px;
+  height: 30px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: gray;
+}
+
+/* Image gallery styling */
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+img {
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
